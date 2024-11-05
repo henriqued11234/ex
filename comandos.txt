@@ -1,0 +1,34 @@
+transformar pasta em repositorio git local
+git init
+
+colocar credenciais:
+git config --global user.name "Leonardo Comelli"
+git config --global user.email leonardo@software-ltda.com.br
+
+git add . - adicionar todos os arquivos para serem gravados
+
+git add nomearquivo - adicionar o arquivo especifico para ser gravado/alterado
+
+git commit -m "commit"  - adiciona/grava todos os arquivos.
+
+git remote add origin git@github.com:leocomelli/curso-git.git - Vincular repositório local com um repositório remoto
+
+
+git branch -M main
+
+Enviar arquivos/diretórios para o repositório remoto
+O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+git push -u origin master
+
+Atualizar repositório local de acordo com o repositório remoto
+Atualizar os arquivos no branch atual
+
+git pull
+
+Clonar um repositório remoto já existente
+git clone git@github.com:leocomelli/curso-git.git
+
+
+referências
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
